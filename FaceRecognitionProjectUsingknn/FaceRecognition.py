@@ -33,7 +33,7 @@ dataset=np.hstack((SnapShots,labels))#along row or column wise
 knn=KNeighborsClassifier(n_neighbors=5)
 knn.fit(dataset[:,:-1],dataset[:,-1])
 
-cap=cv2.VideoCaptur(0)
+cap=cv2.VideoCapture(0)
 
 Cascadeclassifier=cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
