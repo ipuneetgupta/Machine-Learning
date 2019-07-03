@@ -56,7 +56,7 @@ while(num):
 	#Now we want to save our snapshot list of face in file but first we need to convert our list int numpy array
 
 SnapShots=np.array(SnapShots)
-
+print(SnapShots.shape)
 	#for path ./ this represent present directory and followed by name of file and after / it mean do whatever do inside this file 
 
 datapath="./face_dataset/"
